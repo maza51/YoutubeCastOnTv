@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D7F7E0320710F7A00A0E7C5 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 4D7F7E0220710F7A00A0E7C5 /* Resources */; };
+		4DD7A903206D5DB9000F860B /* UPnPDeviceFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7A902206D5DB9000F860B /* UPnPDeviceFinder.swift */; };
+		4DD7A905206D5DEE000F860B /* UPnPActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7A904206D5DEE000F860B /* UPnPActions.swift */; };
 		4DDF65D8206ABCA600E0689B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF65D7206ABCA600E0689B /* AppDelegate.swift */; };
 		4DDF65DA206ABCA600E0689B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF65D9206ABCA600E0689B /* ViewController.swift */; };
 		4DDF65DC206ABCA600E0689B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DDF65DB206ABCA600E0689B /* Assets.xcassets */; };
 		4DDF65DF206ABCA600E0689B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DDF65DD206ABCA600E0689B /* Main.storyboard */; };
+		4DDF65E8206ABFA500E0689B /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF65E7206ABFA500E0689B /* EventMonitor.swift */; };
+		4DFBE3AA20717ED800F2B7EA /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBE3A920717ED800F2B7EA /* Test.swift */; };
+		4DFBE3AE2072A57E00F2B7EA /* YoutubeParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFBE3AD2072A57E00F2B7EA /* YoutubeParse.swift */; };
+		FE2805AD1CC98F3394056E57 /* Pods_YoutubeCastOnTv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFB56EB7AE817DEAE8FD2EE8 /* Pods_YoutubeCastOnTv.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		277A8A126D6A162A45B92011 /* Pods-YoutubeCastOnTv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubeCastOnTv.release.xcconfig"; path = "Pods/Target Support Files/Pods-YoutubeCastOnTv/Pods-YoutubeCastOnTv.release.xcconfig"; sourceTree = "<group>"; };
+		4D7F7E0220710F7A00A0E7C5 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Resources; path = ../../Resources; sourceTree = "<group>"; };
+		4DD7A902206D5DB9000F860B /* UPnPDeviceFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPnPDeviceFinder.swift; sourceTree = "<group>"; };
+		4DD7A904206D5DEE000F860B /* UPnPActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPnPActions.swift; sourceTree = "<group>"; };
 		4DDF65D4206ABCA600E0689B /* YoutubeCastOnTv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeCastOnTv.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DDF65D7206ABCA600E0689B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DDF65D9206ABCA600E0689B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,6 +32,11 @@
 		4DDF65DE206ABCA600E0689B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DDF65E0206ABCA600E0689B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DDF65E1206ABCA600E0689B /* YoutubeCastOnTv.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YoutubeCastOnTv.entitlements; sourceTree = "<group>"; };
+		4DDF65E7206ABFA500E0689B /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		4DFBE3A920717ED800F2B7EA /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		4DFBE3AD2072A57E00F2B7EA /* YoutubeParse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeParse.swift; sourceTree = "<group>"; };
+		6785813AECB9C6108F46DFB7 /* Pods-YoutubeCastOnTv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoutubeCastOnTv.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YoutubeCastOnTv/Pods-YoutubeCastOnTv.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB56EB7AE817DEAE8FD2EE8 /* Pods_YoutubeCastOnTv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YoutubeCastOnTv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,17 +44,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE2805AD1CC98F3394056E57 /* Pods_YoutubeCastOnTv.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A55571E52800EEF19E0343D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6785813AECB9C6108F46DFB7 /* Pods-YoutubeCastOnTv.debug.xcconfig */,
+				277A8A126D6A162A45B92011 /* Pods-YoutubeCastOnTv.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4DDF65CB206ABCA600E0689B = {
 			isa = PBXGroup;
 			children = (
 				4DDF65D6206ABCA600E0689B /* YoutubeCastOnTv */,
 				4DDF65D5206ABCA600E0689B /* Products */,
+				4A55571E52800EEF19E0343D /* Pods */,
+				E8FBC09498E8EC44557A8E56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,13 +82,27 @@
 			isa = PBXGroup;
 			children = (
 				4DDF65D7206ABCA600E0689B /* AppDelegate.swift */,
+				4DDF65E7206ABFA500E0689B /* EventMonitor.swift */,
+				4DD7A902206D5DB9000F860B /* UPnPDeviceFinder.swift */,
+				4DD7A904206D5DEE000F860B /* UPnPActions.swift */,
+				4DFBE3AD2072A57E00F2B7EA /* YoutubeParse.swift */,
+				4DFBE3A920717ED800F2B7EA /* Test.swift */,
 				4DDF65D9206ABCA600E0689B /* ViewController.swift */,
 				4DDF65DB206ABCA600E0689B /* Assets.xcassets */,
 				4DDF65DD206ABCA600E0689B /* Main.storyboard */,
+				4D7F7E0220710F7A00A0E7C5 /* Resources */,
 				4DDF65E0206ABCA600E0689B /* Info.plist */,
 				4DDF65E1206ABCA600E0689B /* YoutubeCastOnTv.entitlements */,
 			);
 			path = YoutubeCastOnTv;
+			sourceTree = "<group>";
+		};
+		E8FBC09498E8EC44557A8E56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFB56EB7AE817DEAE8FD2EE8 /* Pods_YoutubeCastOnTv.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DDF65E4206ABCA600E0689B /* Build configuration list for PBXNativeTarget "YoutubeCastOnTv" */;
 			buildPhases = (
+				74CF460A3E7E013ADE9F248F /* [CP] Check Pods Manifest.lock */,
 				4DDF65D0206ABCA600E0689B /* Sources */,
 				4DDF65D1206ABCA600E0689B /* Frameworks */,
 				4DDF65D2206ABCA600E0689B /* Resources */,
+				6EE2384414983DE86689FACD /* [CP] Embed Pods Frameworks */,
+				2E3C96472074208F9DDCE65A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,18 +169,80 @@
 			files = (
 				4DDF65DC206ABCA600E0689B /* Assets.xcassets in Resources */,
 				4DDF65DF206ABCA600E0689B /* Main.storyboard in Resources */,
+				4D7F7E0320710F7A00A0E7C5 /* Resources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E3C96472074208F9DDCE65A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YoutubeCastOnTv/Pods-YoutubeCastOnTv-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EE2384414983DE86689FACD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YoutubeCastOnTv/Pods-YoutubeCastOnTv-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YoutubeCastOnTv/Pods-YoutubeCastOnTv-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74CF460A3E7E013ADE9F248F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YoutubeCastOnTv-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4DDF65D0206ABCA600E0689B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DD7A905206D5DEE000F860B /* UPnPActions.swift in Sources */,
+				4DD7A903206D5DB9000F860B /* UPnPDeviceFinder.swift in Sources */,
+				4DDF65E8206ABFA500E0689B /* EventMonitor.swift in Sources */,
 				4DDF65DA206ABCA600E0689B /* ViewController.swift in Sources */,
+				4DFBE3AE2072A57E00F2B7EA /* YoutubeParse.swift in Sources */,
 				4DDF65D8206ABCA600E0689B /* AppDelegate.swift in Sources */,
+				4DFBE3AA20717ED800F2B7EA /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +368,7 @@
 		};
 		4DDF65E5206ABCA600E0689B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6785813AECB9C6108F46DFB7 /* Pods-YoutubeCastOnTv.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = YoutubeCastOnTv/YoutubeCastOnTv.entitlements;
@@ -276,6 +384,7 @@
 		};
 		4DDF65E6206ABCA600E0689B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277A8A126D6A162A45B92011 /* Pods-YoutubeCastOnTv.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = YoutubeCastOnTv/YoutubeCastOnTv.entitlements;

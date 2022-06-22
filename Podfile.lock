@@ -1,0 +1,15 @@
+PODS:
+  - CocoaAsyncSocket (7.6.2)
+  - SWXMLHash (4.0.0)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket
+  - SWXMLHash (~> 4.0.0)
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 3541e024f48c54b251638ef72d51dd42808de932
+  SWXMLHash: 6bbc0bf72975a18ceda469fb7d6a886a26d81694
+
+PODFILE CHECKSUM: 249a299fad4ee7fa74f455f90cbe1a5869251c77
+
+COCOAPODS: 1.4.0
